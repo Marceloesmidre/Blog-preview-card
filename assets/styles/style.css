@@ -1,0 +1,82 @@
+:root{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.background{
+    width: 100%;
+    
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vmin;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin: 10px;
+    width: 400px;
+    height: 550px;
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 18px;
+    background-color: white;
+    box-shadow: 10px 10px 2px 1px black;
+}
+
+img{
+    border-radius: 18px;
+}
+
+a{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+a:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: grab;
+}
+
+#date{
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+#text{
+    font-family: 'Lato', sans-serif;
+    color: darkgray;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.leitura{
+    background-color: hsl(47, 88%, 63%);
+    margin-top: 15px;
+    border: 0px;
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+.personal{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size:large;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+}
